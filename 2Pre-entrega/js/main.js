@@ -6,11 +6,11 @@ let iva = 0.21;
 
 // Ubicaciones
 const ubicaciones = [
-  { ubicacion: "Buenos Aires Capital", habitaciones: 1, precio: 61894 },
-  { ubicacion: "Cordoba Capital", habitaciones: 2, precio: 26437 },
-  { ubicacion: "Mendoza", habitaciones: 2, precio: 35930 },
-  { ubicacion: "Santa Cruz, Calafate", habitaciones: 3, precio: 64230 },
-  { ubicacion: "Capilla del Monte, Cordoba", habitaciones: 1, precio: 24395 },
+   { ubicacion: "Buenos Aires Capital", habitaciones: 1, precio: 31894 },
+  { ubicacion: "Cordoba Capital", habitaciones: 2, precio: 16437 },
+  { ubicacion: "Mendoza", habitaciones: 2, precio: 25930 },
+  { ubicacion: "Santa Cruz, Calafate", habitaciones: 3, precio: 34230 },
+  { ubicacion: "Capilla del Monte, Cordoba", habitaciones: 1, precio: 12395 }
 ];
 
 // Funcion para sumar IVA al precio final
