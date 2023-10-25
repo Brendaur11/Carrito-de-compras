@@ -1,26 +1,3 @@
-/* //defino el constructor de los objetos
-const Alquiler = function(ciudad,precio,disponibilidad){
-    this.ciudad= ciudad,
-    this.precio = precio,
-    this. disponibilidad = disponibilidad
-}
-
-//creo los objetos
-let alquiler1= new Alquiler ("notebook lenovo", 480000, 20)
-let alquiler2= new Alquiler ("lenovo pad", 45500, 26)
-let alquiler3= new Alquiler ("notebook apple macbook", 700000, 45)
-let alquiler4= new Alquiler ("apple pad", 350000, 23)
-let alquiler5= new Alquiler ("apple smartwatch", 150000, 10)
-let alquiler6= new Alquiler ("samsung smartwatch", 17000, 30)
-let alquiler7= new Alquiler ("samsung smarttv", 120000, 1)
-let alquiler8= new Alquiler ("samsung galaxy s23", 320000, 7)
-
-
-//meto los productos en una lista
-let lista = [alquiler1,alquiler2,alquiler3,alquiler4,alquiler5,alquiler6,alquiler7,alquiler8] */
-
-
-// Constructor para objetos Hotel
 const Hotel = function(nombre, precio, ubicacion, estrellas) {
     this.nombre = nombre;
     this.precio = precio;
