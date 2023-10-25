@@ -199,3 +199,29 @@ a{
     hsl(0, 0%, 67%) 100%); 
     align-self: flex-end;
 } */
+
+.hotel-container{
+    margin: 0 0 0 30rem;
+    width: 70rem;
+    height: 50rem;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.hotel-card{
+    width: 20rem;
+    height: 20rem;
+    margin-right: 15px;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #3b3b3b88;
+    border-radius: 10px;
+    box-shadow: 0 16px 32px hsla(228, 66%, 25%, .25);
+}
+
+.titulo-hotel{
+    align-items: center;
+    display: flex;
+    position: relative;
+}
