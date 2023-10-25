@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quite Home</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="img/hogar.png" type="image/x-icon">
+    <!-- BOXICON -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- ==== NAVBAR ===== -->
+    <header class="header" id="header">
+        <a href="" class="logo">Quite Home</a>
+
+        <nav class="nav_menu" id="nav_menu">
+            <a href="#inicio" class="nav_link active" id="nav_link">Inicio</a>
+            <a href="#alquileres" class="nav_link" id="nav_link">Alquileres</a>
+            <a href="#acerca" class="nav_link" id="nav_link">Acerca de</a>
+            <a href="#contacto" class="nav_link" id="nav_link">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- ==== HOME ==== -->
+    <section class="home" id="home">
+        <div class="home-bg" id="home-bg"></div>
+
+        <div class="home-container" id="home-container">
+            <div class="container">
+                <div class="home-content blur-in">
+                    <h1 class="home__title">Encontrá en lugar perfecto para vacacionar!
+                    <p>Hoteles y cabañas a los mejores precios.</p>
+                </div>
+
+                <div class="search-container">
+                    <i class='bx bxs-map' id="icon"></i>
+                    <input type="text" placeholder="Busca tu ubicación" class="buscador" id="buscador">
+                    <button class="btn-buscar" type="submit" id="btn-buscar">Buscar</button>
+                </div>
+            </div>
+            
+            <div class="home-imagen" id="home-imagen"> <!-- home__images -->
+                <div class="img-shadow" id="img-shadow"></div> <!-- home__orbe -->
+
+                <div class="imagen" id="imagen"> <!-- home__img -->
+                    <img src="img/home2.jpg" alt="" class="img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
