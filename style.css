@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&family=Nunito&family=Poppins:wght@500&family=Raleway:wght@500&family=Rubik&display=swap');
+
+:root{
+  --color-acento: rgb(11, 77, 177);
+  --color-acento-claro: rgb(39, 46, 70);
+  --color-texto: rgb(255, 255, 255);
+}
+
+body{
+  margin: 0;
+  font-family: 'Mulish', sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+h3, p{
+  margin: 5px;
+}
+
+.escondido{
+  display: none;
+}
+
+a{
+  background-color: unset;
+  border:unset;
+  cursor:pointer;
+  text-decoration: none;
+  transition: 200ms;
+  color: var(--color-texto);
+}
+
+button{
+  transition: 200ms;
+}
+
+/* Header */
+header{
+  width: 100%; 
+  position: fixed;
+  background: rgb(19, 19, 19);
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.09);
+  font-size: larger;
+  border-bottom: 2px solid rgba(179, 176, 176, 0.452);
+  z-index: 1000;
+}
+
+header nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 80px;
+  /* width: 100%;  */
+}
+
+#logo{
+  height: 30px;
+  margin: 20px;
+}
+
+header nav div{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+header nav img{
+  height: 25px;
+}
+
+#cuenta-carrito{
+  position: absolute;
+  background-color: #fff;
+  border-radius: 100%;
+  display: inline-block;
+  height: 18px;
+  /* line-height: 18px; */
+  aspect-ratio: 1;
+  text-align: center;
+  /* margin-bottom: 15px; */
+  color: rgb(19, 19, 19);
+  font-size: 13px;
+}
+
+footer{
+  text-align: center;
+  box-shadow: -1px -3px 5px rgba(0, 0, 0, 0.09);
+  padding-top: 2px;
+  margin-top: auto;
+}
+
+footer a{
+  text-decoration: underline;
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&family=Nunito&family=Poppins:wght@500&family=Raleway:wght@500&family=Rubik&display=swap');
+
+*{
+  font-family: 'Mulish', sans-serif;
+}
+
+#cart-container{
+  max-width: 500px;
+  margin: 100px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarjeta-producto{
+  display: flex;
+  align-items: center;
+  height: 100px;
+  gap: 20px;
+}
+
+.tarjeta-producto img{
+  height: 100%;
+}
+
+.tarjeta-producto h3{
+  width: 130px;
+}
+.tarjeta-producto div{
+  background-color: var(--color-acento-claro);
+  padding: 3px;
+  border-radius: 5px;
+}
+
+#totales{
+  text-align: center;
+}
+
+#carrito-vacio{
+  text-align: center;
+}
+
+#carrito-vacio{
+  margin-top: 100px;
+}
+
+#carrito-vacio a{
+  color: rgb(3, 73, 179);
+}
+
+#comprar{
+  width: 100px;
+  height: 30px;
+  background-color: rgba(20, 20, 20, 0.5);
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+#borrar{
+  width: 100px;
+  height: 30px;
+  background-color: rgba(20, 20, 20, 0.5);
+  border-radius: 5px;
+  border: 1px solid;
+}
